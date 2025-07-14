@@ -31,7 +31,18 @@ const InstagramCarousel = () => {
     height:'auto'
   }
 
-  
+  return(
+    <div>
+      <h2>Carrusel Instagram</h2>
+      <Slider {...settings} style={carouselStyles} >
+      {images.map((image,index) => (
+        <div key={index}>
+          <img src= {image} alt="slide" style={{width:'100%', height:'auto'}} />
+        </div>
+      ))}
+      </Slider>
+    </div>
+  )
 };
 
 export default InstagramCarousel;
