@@ -12,6 +12,18 @@ const InstagramCarousel = () => {
     'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face',
   ]
 
+  const settings = {
+    dots: true,
+    infinity: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll:1,
+    appendDots: (dots) =>(
+      <div style={{position: 'absolute', bottom:'20px', width:'100%', textAlign:'center' }} >
+        <ul style={{margin:'0', padding: '0', display: 'inline-block'}}>{dots}</ul>
+      </div>
+    )
+  }
 };
 
 export default InstagramCarousel;
