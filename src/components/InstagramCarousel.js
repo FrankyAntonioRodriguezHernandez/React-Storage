@@ -24,6 +24,14 @@ const InstagramCarousel = () => {
       </div>
     )
   }
+  
+  const carouselStyles ={
+    margin: 'auto',
+    width:'50%',
+    height:'auto'
+  }
+
+  
 };
 
 export default InstagramCarousel;
