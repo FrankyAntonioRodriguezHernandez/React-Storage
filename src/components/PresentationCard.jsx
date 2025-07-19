@@ -1,4 +1,5 @@
 import imagenAvatar from '../assets/Avatar.png';
+import './PresentationCard.css';
 
 function PresentationCard(){
     let name = "Franky";
