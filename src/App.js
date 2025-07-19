@@ -7,7 +7,7 @@ import PresentationCard from './components/PresentationCard';
 function App() {
   return (
     <div className='App'>
-      
+      <PresentationCard/>
     </div>
   );
 }
